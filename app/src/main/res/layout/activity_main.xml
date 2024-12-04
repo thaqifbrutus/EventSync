@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".MainActivity">
+
+    <!-- AppBarLayout with Toolbar and TabLayout -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="App bar with tabs for navigation">
+
+        <!-- Toolbar (Ensure layout file exists at res/layout/app_toolbar.xml) -->
+        <include
+            android:id="@+id/main_page_toolbar"
+            layout="@layout/app_toolbar" />
+
+        <!-- TabLayout with Accessibility -->
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/main_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabIndicatorColor="@android:color/white"
+            app:tabTextColor="@android:color/white"
+            android:contentDescription="Main tabs for navigation" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- ViewPager with Accessibility -->
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/main_tabs_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/appBarLayout"
+        android:contentDescription="Swipeable pages corresponding to tabs" />
+</RelativeLayout>

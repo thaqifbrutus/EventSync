@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "73100128067",
+    "project_id": "eventsync-firebase",
+    "storage_bucket": "eventsync-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73100128067:android:03c245d2eb2f7a5130c9f6",
+        "android_client_info": {
+          "package_name": "com.example.eventsync_message"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPJO6JuFEc5aoDrstA_1lWGrCjcGqJ6jw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

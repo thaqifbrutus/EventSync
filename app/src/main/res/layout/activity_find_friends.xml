@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".FindFriendsActivity">
+
+    <!-- Toolbar setup -->
+    <include
+
+        layout="@layout/app_toolbar"
+        android:id="@+id/find_friends_toolbar" />
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize" />
+
+        <!-- RecyclerView for friends list -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/find_friends_recycler_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/find_friends_toolbar"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- Navigation host fragment (if required) -->
+    <FrameLayout
+        android:id="@+id/nav_host_fragment_content_find_friends"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/find_friends_toolbar"
+        android:layout_above="@id/fab" />
+
+    <!-- Floating Action Button -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginBottom="1dp"
+        android:visibility="invisible"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+</RelativeLayout>

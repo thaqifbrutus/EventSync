@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EventSync_Message" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Set text colors explicitly -->
+        <item name="android:textColorPrimary">@color/colorTextPrimary</item>
+        <item name="android:textColorSecondary">@color/colorTextSecondary</item>
+        <item name="android:windowBackground">@android:color/white</item>
+
+    </style>
+</resources>

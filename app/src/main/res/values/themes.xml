@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+        <!-- Set text colors explicitly -->
+        <item name="android:textColorPrimary">@color/colorTextPrimary</item>
+        <item name="android:textColorSecondary">@color/colorTextSecondary</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <style name="Theme.EventSync_Message" parent="Base.Theme.EventSync_Message" />
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EventSync_Message" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+</resources>
