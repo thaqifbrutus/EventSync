@@ -116,3 +116,14 @@ To run this app locally for development:
      b. Enable Firebase Realtime Database
      c. Download google-services.json and place it in the /app directory
 4. **Run app on emulator or device**
+
+---
+
+## About the Project
+
+EventSync is a mobile application built to address the challenges of organizing and managing events with multiple participants. Designed as a collaborative tool for event committees, the app integrates real-time communication and task delegation features to help teams stay aligned and organized throughout the planning and execution phases.
+
+This project was developed as part of my learning journey in mobile app development using Android Studio and Firebase. While the application is functional, it is still in an early stage and may contain bugs or incomplete features. The current version serves as a foundation for further improvement and refinement.
+
+As I continue to learn and gain experience, I plan to update this project by enhancing the user experience, fixing issues, and implementing more advanced functionalities. Feedback and suggestions are always welcome, and I am committed to continuously improving this application as a showcase of my technical growth.
+
