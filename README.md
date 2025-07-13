@@ -98,7 +98,7 @@
 
 Coming soon. Once the APK is uploaded, you’ll be able to download it here:
 
-[Download APK](https://github.com/yourusername/EventSync/releases/download/v1.0/EventSync.apk)
+[Download APK](https://github.com/thaqifbrutus/EventSync/releases/tag/v1.0)
 
 ---
 
@@ -108,7 +108,7 @@ To run this app locally for development:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/EventSync.git
+   git clone https://github.com/thaqifbrutus/EventSync.git
 
 2. **Open in Android Studio**
 3. **Set up Firebase**
