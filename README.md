@@ -96,7 +96,7 @@
 
 ## APK Download
 
-Coming soon. Once the APK is uploaded, you’ll be able to download it here:
+Download the apk and test it on an Android mobile device, you’ll be able to download it here:
 
 [Download APK](https://github.com/thaqifbrutus/EventSync/releases/tag/v1.0)
 
